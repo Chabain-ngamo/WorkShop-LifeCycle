@@ -5,7 +5,4 @@ stage('Compile') {
             args '-v /home/.m2/repository:/root/.m2/repository'
         }
     }
-    steps {
-        sh 'mvn compile'
-    }
 }
